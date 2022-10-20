@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"dotnet watch run\" \"cd client-app && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "soumiaSAADOUN",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "currently": "^0.0.8",
+    "tailwindcss-rtl": "^0.9.0"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.3",
+    "react-icons": "^4.6.0"
+  }
+}
